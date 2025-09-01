@@ -96,3 +96,5 @@ export module FileMod
 ## Conclusion
 
 As can be seen, I do not suggest to reinvent the wheel. Cargo is nice tool and Rust crates system is also good. But it lacks vendoring mechanic (like in Maven), so I think it is ok to add this from the start. Many other features of Cargo may be of use like `dev-dependencies`, project structure (examples, tests, etc), version selection for dependencies, feature flags and so on.
+
+Have seen an example from book about encapsulation, but think that modules should be easier. I considered that there are two ways but intensionally have chosen the simple one.
