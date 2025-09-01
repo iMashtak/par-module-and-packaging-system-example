@@ -1,0 +1,18 @@
+use Std.Collections.*
+
+use Dep1.Def1
+use Dep1.Def2
+use Dep2.{Def3, Def4}
+use Dep3.Def5
+
+type MyQueue = Queue<Def1>
+
+mod MyMod {
+    type MyList = List<Def1>
+}
+
+type MyListOfLists = List<MyMod.MyList>
+
+mod FileMod
+
+type MyListOfString = List<FileMod.MyString>

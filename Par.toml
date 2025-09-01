@@ -1,0 +1,9 @@
+[package]
+group = "org"
+name = "Example"
+version = "1.0.0"
+
+[dependencies]
+org1.Dep1 = { version = "*" }
+org2.Dep2 = "2.4.6"
+org2.Dep1 = { version = "*", as = "Dep3" }
